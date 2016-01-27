@@ -39,6 +39,30 @@ char* file_read(const char* filename){
 	return res;
 }
 
+//Display compilation errors from the shader compiler
+void print_log(GLuint object){
+	GLint log_length = 0;
+	if(glIsShader(object)){
+		glGetShaderiv(object, GL_INFO_LOG_LENGTH, &log_length);
+	}
+	else if(glIsProgram(object)){
+		glGetProgramiv(object, GL_INFO_LOG_LENGTH, &log_length);
+	}
+	else{
+		cerr << "printlog: not a shader or a program" << endl;
+		return;
+	}
+
+	char* log = (char*)malloc(log_length);
+	if(glIsShader(object))
+		glGetShaderInfoLog(object, log_length, NULL, log);
+	else if(glIsProgram(object))
+		glGetProgramInfoLog(object, log_length, NULL, log);
+
+	cerr << log;
+	free(log);
+}
+
 bool init_resources() {
 	GLint compile_ok = GL_FALSE, link_ok = GL_FALSE;
 	GLuint vs = glCreateShader(GL_VERTEX_SHADER);
