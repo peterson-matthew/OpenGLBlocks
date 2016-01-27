@@ -1,0 +1,42 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CPPFLAGS	/home/mpete/Documents/C++/OpenGLBlocks/src/Makefile	/^CPPFLAGS = $(shell sdl2-config --cflags) $(EXTRA_CPPFLAGS)$/;"	m
+DirectoryOfThisScript	/home/mpete/Documents/C++/OpenGLBlocks/.ycm_extra_conf.py	/^def DirectoryOfThisScript():$/;"	f
+DirectoryOfThisScript	/home/mpete/Documents/C++/OpenGLBlocks/src/.ycm_extra_conf.py	/^def DirectoryOfThisScript():$/;"	f
+EXE	/home/mpete/Documents/C++/OpenGLBlocks/src/Makefile	/^EXE = main$/;"	m
+EXTRA_LDLIBS	/home/mpete/Documents/C++/OpenGLBlocks/src/Makefile	/^EXTRA_LDLIBS = -lGL$/;"	m
+FlagsForFile	/home/mpete/Documents/C++/OpenGLBlocks/.ycm_extra_conf.py	/^def FlagsForFile( filename, **kwargs ):$/;"	f
+FlagsForFile	/home/mpete/Documents/C++/OpenGLBlocks/src/.ycm_extra_conf.py	/^def FlagsForFile( filename, **kwargs ):$/;"	f
+GetCompilationInfoForFile	/home/mpete/Documents/C++/OpenGLBlocks/.ycm_extra_conf.py	/^def GetCompilationInfoForFile( filename ):$/;"	f
+GetCompilationInfoForFile	/home/mpete/Documents/C++/OpenGLBlocks/src/.ycm_extra_conf.py	/^def GetCompilationInfoForFile( filename ):$/;"	f
+IsHeaderFile	/home/mpete/Documents/C++/OpenGLBlocks/.ycm_extra_conf.py	/^def IsHeaderFile( filename ):$/;"	f
+IsHeaderFile	/home/mpete/Documents/C++/OpenGLBlocks/src/.ycm_extra_conf.py	/^def IsHeaderFile( filename ):$/;"	f
+LDLIBS	/home/mpete/Documents/C++/OpenGLBlocks/src/Makefile	/^LDLIBS = $(shell sdl2-config --libs) -lGLEW $(EXTRA_LDLIBS)$/;"	m
+MakeRelativePathsInFlagsAbsolute	/home/mpete/Documents/C++/OpenGLBlocks/.ycm_extra_conf.py	/^def MakeRelativePathsInFlagsAbsolute( flags, working_directory ):$/;"	f
+MakeRelativePathsInFlagsAbsolute	/home/mpete/Documents/C++/OpenGLBlocks/src/.ycm_extra_conf.py	/^def MakeRelativePathsInFlagsAbsolute( flags, working_directory ):$/;"	f
+SOURCE_EXTENSIONS	/home/mpete/Documents/C++/OpenGLBlocks/.ycm_extra_conf.py	/^SOURCE_EXTENSIONS = [ '.cpp', '.cxx', '.cc', '.c', '.m', '.mm' ]$/;"	v
+SOURCE_EXTENSIONS	/home/mpete/Documents/C++/OpenGLBlocks/src/.ycm_extra_conf.py	/^SOURCE_EXTENSIONS = [ '.cpp', '.cxx', '.cc', '.c', '.m', '.mm' ]$/;"	v
+attribute_coord2d	/home/mpete/Documents/C++/OpenGLBlocks/src/main.cpp	/^GLint attribute_coord2d;$/;"	v
+compilation_database_folder	/home/mpete/Documents/C++/OpenGLBlocks/.ycm_extra_conf.py	/^compilation_database_folder = ''$/;"	v
+compilation_database_folder	/home/mpete/Documents/C++/OpenGLBlocks/src/.ycm_extra_conf.py	/^compilation_database_folder = ''$/;"	v
+database	/home/mpete/Documents/C++/OpenGLBlocks/.ycm_extra_conf.py	/^  database = None$/;"	v
+database	/home/mpete/Documents/C++/OpenGLBlocks/.ycm_extra_conf.py	/^  database = ycm_core.CompilationDatabase( compilation_database_folder )$/;"	v
+database	/home/mpete/Documents/C++/OpenGLBlocks/src/.ycm_extra_conf.py	/^  database = None$/;"	v
+database	/home/mpete/Documents/C++/OpenGLBlocks/src/.ycm_extra_conf.py	/^  database = ycm_core.CompilationDatabase( compilation_database_folder )$/;"	v
+file_read	/home/mpete/Documents/C++/OpenGLBlocks/src/main.cpp	/^char* file_read(const char* filename){$/;"	f
+flags	/home/mpete/Documents/C++/OpenGLBlocks/.ycm_extra_conf.py	/^flags = [$/;"	v
+flags	/home/mpete/Documents/C++/OpenGLBlocks/src/.ycm_extra_conf.py	/^flags = [$/;"	v
+free_resources	/home/mpete/Documents/C++/OpenGLBlocks/src/main.cpp	/^void free_resources() {$/;"	f
+init_resources	/home/mpete/Documents/C++/OpenGLBlocks/src/main.cpp	/^bool init_resources() {$/;"	f
+main	/home/mpete/Documents/C++/OpenGLBlocks/src/main.cpp	/^int main(int argc, char* argv[]) {$/;"	f
+mainLoop	/home/mpete/Documents/C++/OpenGLBlocks/src/main.cpp	/^void mainLoop(SDL_Window* window) {$/;"	f
+os	/home/mpete/Documents/C++/OpenGLBlocks/.ycm_extra_conf.py	/^import os$/;"	i
+os	/home/mpete/Documents/C++/OpenGLBlocks/src/.ycm_extra_conf.py	/^import os$/;"	i
+print_log	/home/mpete/Documents/C++/OpenGLBlocks/src/main.cpp	/^void print_log(GLuint object){$/;"	f
+render	/home/mpete/Documents/C++/OpenGLBlocks/src/main.cpp	/^void render(SDL_Window* window) {$/;"	f
+ycm_core	/home/mpete/Documents/C++/OpenGLBlocks/.ycm_extra_conf.py	/^import ycm_core$/;"	i
+ycm_core	/home/mpete/Documents/C++/OpenGLBlocks/src/.ycm_extra_conf.py	/^import ycm_core$/;"	i
